@@ -25,5 +25,14 @@ public class homework1
 		
 		JOptionPane.showMessageDialog(null,"Time \n Day:Hour:Min:Sec\n "+Day+":"+Hour+":"+Min+":"+Sec,"Message",JOptionPane.INFORMATION_MESSAGE);
 	}
+	public static void main(String[] args) 
+	{
+		homework1 ts1 = new homework1();
+		ts1.getData();
+		ts1.Calc();
+		ts1.Print();
+	}
+
+}
 	
 	
