@@ -39,3 +39,7 @@ public class homework2
 			}
 		}
 	}
+	public void Print()
+	{
+		JOptionPane.showMessageDialog(null,"Have\n"+"A : "+A+"\nE : "+E+"\nI : "+I+"\nO : "+O+"\nU : "+U,"Message",JOptionPane.PLAIN_MESSAGE);
+	}
