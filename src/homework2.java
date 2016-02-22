@@ -43,3 +43,13 @@ public class homework2
 	{
 		JOptionPane.showMessageDialog(null,"Have\n"+"A : "+A+"\nE : "+E+"\nI : "+I+"\nO : "+O+"\nU : "+U,"Message",JOptionPane.PLAIN_MESSAGE);
 	}
+	public static void main(String[] args) 
+	{
+		String name;
+		homework2 ts2 = new homework2();
+		name = ts2.getData();
+		ts2.Calc(name);
+		ts2.Print();
+	}
+
+}
