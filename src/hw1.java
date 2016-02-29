@@ -77,6 +77,55 @@ package h2;
 			}
 			return n1;
 		}
+		public void Calc()
+		{
+			int b=0;
+			for(int i=0;i<Sum.length;i++)
+			{
+				b = Integer.parseInt(Sum[i][0]);
+				for(int j=1;j == 1;j++)
+				{
+					if(b >=80 && b<=100)
+					{
+						Sum[i][j] = "A";
+					}
+					else if(b >=75 && b<=79)
+					{
+						Sum[i][j] = "B+";
+					}
+					else if(b >=70 && b<=74)
+					{
+						Sum[i][j] = "B";
+					}
+					else if(b >=65 && b<=69)
+					{
+						Sum[i][j] = "C+";
+					}
+					else if(b >=60 && b<=64)
+					{
+						Sum[i][j] = "C";
+					}
+					else if(b >=55 && b<=59)
+					{
+						Sum[i][j] = "D+";
+					}
+					else if(b >=50 && b<=54)
+					{
+						Sum[i][j] = "D";
+					}
+					else if(b >=0 && b<= 49)
+					{
+						Sum[i][j] = "F";
+					}
+					else
+					{
+						JOptionPane.showMessageDialog(null,"Error","MEssage",JOptionPane.ERROR_MESSAGE);
+						System.exit(0);
+					}
+				}
+			}
+			
+		}
 		
 		
 		
