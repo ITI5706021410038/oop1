@@ -1,9 +1,16 @@
 package h2;
 
-public class hw1 {
+	import java.io.*;
+	import javax.swing.*;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	import java.util.*;
+	public class hw1
+	{
+		int [][] Sec3,Sec4,Sec5;
+		String[][] Sum;
+		int a=0;
+		Random rand = new Random();
+		
 
 	}
 
