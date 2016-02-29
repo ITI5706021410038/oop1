@@ -47,6 +47,38 @@ package h2;
 			}
 			return n1;
 		}
+		public String OOPSec4()
+		{
+			String n1;
+			Sec4 = new int[20][4];
+			Sum = new String[20][2];
+			
+			n1 = "Number\tMidterm\tFinal\tHomework\tAssignment\n";
+			for(int i=0;i<Sec4.length;i++)
+			{
+				n1 = n1+(i+1)+"\t";
+				for(int j=0;j<Sec4[0].length;j++)
+				{
+					if(j<2)
+					{
+						Sec4[i][j] = rand.nextInt(31);
+					}
+					else
+					{
+						Sec4[i][j] = rand.nextInt(21);
+					}
+					a = a + Sec4[i][j];
+					n1 = n1 + Sec4[i][j]+"\t";
+				}
+				n1=n1+"\n";
+				Sum[i][0] = Integer.toString(a);
+				a = 0;
+				
+			}
+			return n1;
+		}
+		
+		
 		
 		
 
